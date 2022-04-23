@@ -1,0 +1,30 @@
+{
+  "name": "esbuild-plugin-schema-registry",
+  "version": "1.0.0",
+  "description": "An esbuild plugin to pull schemas from a registry",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuldin/esbuild-plugin-schema-registry.git"
+  },
+  "keywords": [
+    "esbuild",
+    "esbuild-plugin",
+    "schema-registry"
+  ],
+  "author": "Josh Purcell (https://github.com/vuldin)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vuldin/esbuild-plugin-schema-registry/issues"
+  },
+  "homepage": "https://github.com/vuldin/esbuild-plugin-schema-registry#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "esbuild": "^0.14.36",
+    "typescript": "^4.6.3"
+  }
+}
